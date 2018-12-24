@@ -1,0 +1,10 @@
+[demo]
+3.81.12.15
+54.81.144.221
+
+[demo:vars]
+ansible_ssh_user=ec2-user
+ansible_private_key_file=/home/ec2-user/study.pem
+
+[final:children]
+demo
